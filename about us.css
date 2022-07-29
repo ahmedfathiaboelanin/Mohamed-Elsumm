@@ -3,6 +3,16 @@ body{
     background-image: url(1.jpg);
     background-size: cover;
 }
-#الرجوع{
-    text-align: center;
+.back a{
+    position: absolute;
+    top: 510px;
+    left: 10px;
+}
+.back a img{
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+}
+.back a img:hover{
+    transform: scale(1.2);
 }
