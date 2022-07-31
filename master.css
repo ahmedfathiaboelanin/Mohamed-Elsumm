@@ -320,7 +320,7 @@ li a{
     .links2{
         position: absolute;
         top: 600px;
-        left: 80px;
+        left: 75px;
         line-height: 20px;
     }
     .links1{
@@ -451,12 +451,15 @@ li a{
     }
     .links2{
         position: absolute;
-        top: 600px;
+        top: 500px;
         left: 20px;
-        line-height: 20px;
+        line-height: 15px;
     }
     .links1{
-        line-height: 20px;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        line-height: 15px;
     }
 }
 @media (width:1024px) {
