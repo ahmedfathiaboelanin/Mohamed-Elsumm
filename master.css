@@ -12,7 +12,7 @@ body{
     border-radius: 50%;
     position: relative;
     left:50%;
-    transform: translate(-50%,0);
+    transform: translate(-40%,0);
     border: none;
 }
 .logo .tms:hover{
@@ -21,14 +21,14 @@ body{
     transform: scale(1.3);
 }
 .links1{
-    list-style: none;
+    /* list-style: none; */
     padding-top: 30px; 
     color: white;
     text-align: center;
 }
 .links2{
     list-style: none;
-    padding-top: 30px; 
+    padding-top: 10px; 
     color: white;
     text-align: center;
 }
@@ -89,4 +89,380 @@ li a{
     transform: scale(1.2);
     transition: 1s;
     border-bottom:3px solid rgb(233, 135, 135);
+}
+/* @media (min-width:1264px) {
+    .links1{
+        list-style: none;
+        padding-top: 30px; 
+        color: white;
+        text-align: center;
+    }
+    .links2{
+        list-style: none;
+        padding-top: 30px; 
+        color: white;
+        text-align: center;
+    }
+    li{
+        display: inline;
+        padding: 20px;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+        font-size: x-large;
+        font-family:'Times New Roman', Times, serif
+    }
+    .certificate{
+        border-radius: 50%;
+        position: absolute;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 300px;
+        margin-bottom: 50px; */
+    
+        /* 19111 */
+        /* 111 */
+    /* } */
+    /* .certificate img{
+        position: relative;
+        border-radius: 15%;
+    }
+    .certificate img:hover{
+        border: rgb(238, 255, 7) solid 4px;
+        transition: 1s;
+        cursor:-webkit-zoom-in;
+        transform: scale(2);
+    }
+    .links1>li {
+        border:none;
+    }
+    .links1>li:hover a{
+        color: rgb(62, 130, 161);
+        letter-spacing: 2px;
+        transform: scale(1.2);
+        border-bottom:3px solid rgb(233, 135, 135);
+    
+        transition: 1s;
+    
+    }
+    .links2>li {
+        border:none;
+    }
+    .links2>li:hover {
+        transition: .5s;
+    }
+    .links2>li:hover a{
+        color: rgb(19, 113, 156);
+        letter-spacing: 2px;
+        transform: scale(1.2);
+        transition: 1s;
+        border-bottom:3px solid rgb(233, 135, 135);
+    }
+     */
+/* } */
+@media (min-width:1124px) and (max-width:1263px) {
+    li{
+        display: inline;
+        padding: 10px;
+    }
+}
+@media (max-width:1123px) and (min-width:1110px) {
+    li{
+        display: inline;
+        padding: 9px;
+    }
+}
+@media (max-width:1109px) and (min-width:779px){
+    .links1{
+        line-height:60px;
+        padding: 70px;
+    }
+}
+@media (max-width:778px) and (min-width:679px){
+    .links1{
+        line-height: 60px;
+    }
+}
+@media (max-width:678px) and (min-width:659px) {
+    .links1{
+        line-height: 60px;
+        padding: 10px;
+    }
+    .links2{
+        padding: 7px;
+    }
+}
+@media (max-width:658px) and (min-width: 643px){
+    .links1{
+        line-height: 60px;
+        padding-left: 4px;
+        padding-right: 0px;
+    }
+    .links2{
+        padding: 7px;
+    }
+    
+}
+@media (max-width:642px) and (min-width:639px){
+    .links1{
+        line-height: 60px;
+        padding-left: 0px;
+    }
+    .links2{
+        padding: 5px;
+    }
+}
+@media (max-width:638px ) and (min-width: 626px) {
+    .links1{
+        line-height: 60px;
+        padding-right: 70px;
+        padding-left: 50px;
+    }
+    .links2{
+        padding: 0px;
+    }
+}
+@media (max-width: 625px) and (min-width:582px){
+    .links1{
+        line-height: 60px;
+        padding-right: 70px;
+        padding-left: 50px;
+    }
+    .links2{
+
+        padding-left: 40px;
+        padding-right: 20px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 581px){
+    li{
+        display: block;
+    }
+    .links1{
+        line-height: 30px;
+    }
+    .links2{
+        padding-left: 40px;
+        padding-right: 20px;
+        line-height: 50px;
+    }
+    .certificate{
+        position: absolute;
+        top: 550px;
+        left: 300px;
+    }
+}
+
+@media (max-width:375px ) {
+    li{
+        display: block;
+    }
+    .links1{
+        line-height: 30px;
+    }
+    .links2{
+        padding-left: 40px;
+        padding-right: 20px;
+        line-height: 50px;
+    }
+    body{
+        background-position:50%,100%;
+        }
+    .logo .tms{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    
+    .certificate{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 650px;
+        left: 50px;
+        /* display: none; */
+        margin-top: 150px;
+        margin-bottom: 10px;    
+    }
+    .certificate:hover{
+        transform: scale(1);
+    }
+}
+@media (width:414px) {
+    .certificate{
+        display: none;
+    }
+    .links2{
+        position: absolute;
+        top: 600px;
+        left: 90px;
+        line-height: 20px;
+    }
+    .links1{
+        line-height: 20px;
+    }
+
+    body{
+        background-position:45%,100%;
+    }
+}
+@media (width:390px)  {
+    body{
+        background-position:45%,100%;
+    }
+    .certificate{
+        display: none;
+    }
+    .links2{
+        position: absolute;
+        top: 600px;
+        left: 80px;
+        line-height: 20px;
+    }
+    .links1{
+        line-height: 20px;
+    }
+}
+@media  (width:393px) {
+    body{
+        background-position:45%,100%;
+    }
+    .certificate{
+        display: none;
+    }
+    .links2{
+        position: absolute;
+        top: 600px;
+        left: 80px;
+        line-height: 20px;
+    }
+    .links1{
+        line-height: 20px;
+    }
+}
+@media (width:360px) {
+    body{
+        background-position:45%,100%;
+    }
+    .certificate{
+        display: none;
+    }
+    .links2{
+        position: absolute;
+        top: 600px;
+        left: 65px;
+        line-height: 20px;
+    }
+    .links1{
+        line-height: 20px;
+    }
+}
+@media (width:412px) {
+    body{
+        background-position:45%,100%;
+        /* background-size: contain; */
+    }
+    .certificate{
+        display: none;
+    }
+    .links2{
+        position: absolute;
+        top: 600px;
+        left: 85px;
+        line-height: 20px;
+    }
+    .links1{
+        line-height: 20px;
+    }
+}
+@media (width:820px) {
+    body{
+        background-size:contain;
+        height: 120vh;
+    }
+    .certificate{
+        top: 200px;
+    }
+    .links2{
+        position: absolute;
+        top: 700px;
+        left: 85px;
+    }
+}
+@media (width:768px) {
+    body{
+        background-size: contain;
+        height: 120vh;
+    }
+    .certificate{
+        top: 200px;
+    }
+    .links2{
+        position: absolute;
+        top: 700px;
+        left: 70px;
+    }
+}
+@media (width:912px) {
+    body{
+        background-size: contain;
+        height: 120vh;
+    }
+    .certificate{
+        top: 200px;
+    }
+    .links2{
+        position: absolute;
+        top: 700px;
+        left: 120px;
+    }
+}
+@media (width:540px) {
+    body{
+        background-size: contain;
+        height: 120vh;
+    }
+    .certificate{
+        top: 200px;
+        left: 270px;
+    }
+    li{
+        padding-left: 20px;
+        line-height: 20px;
+        display: inline;
+        line-height: 50px;
+    }
+    .links2{
+        position: absolute;
+        top: 800px;
+        padding: 0px;
+    }
+}   
+@media (width:280px) {
+    body{
+        background-position:45%,100%;
+    }
+    .certificate{
+        display: none;
+    }
+    .links2{
+        position: absolute;
+        top: 600px;
+        left: 20px;
+        line-height: 20px;
+    }
+    .links1{
+        line-height: 20px;
+    }
+}
+@media (width:1024px) {
+    .links2{
+        position: absolute;
+        top: 900px;
+        left: 200px;
+    }
 }
